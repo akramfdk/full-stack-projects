@@ -28,7 +28,7 @@ function generateRandomBackground(){
 
 function copyToClipboard(){
     navigator.clipboard.writeText(text.textContent);
-    alert("Copied to Clipboard");
+    alert("Gradient string to Clipboard");
 }
 
 color1.addEventListener("input", updateBackground);
