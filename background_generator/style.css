@@ -31,6 +31,10 @@ h1, h2{
     text-transform: uppercase;
 }
 
+h3{
+    cursor: pointer;
+}
+
 .background-selector{
     margin-bottom: 1.5rem;
 }

@@ -26,8 +26,15 @@ function generateRandomBackground(){
     updateBackground();
 }
 
+function copyToClipboard(){
+    navigator.clipboard.writeText(text.textContent);
+    alert("Copied to Clipboard");
+}
+
 color1.addEventListener("input", updateBackground);
 color2.addEventListener("input", updateBackground);
 select.addEventListener("input", updateBackground);
 random_button.addEventListener("click", generateRandomBackground);
+text.addEventListener("click", copyToClipboard);
+
 generateRandomBackground();
